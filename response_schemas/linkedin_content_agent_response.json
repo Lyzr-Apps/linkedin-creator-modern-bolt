@@ -1,0 +1,32 @@
+{
+  "agent_name": "LinkedIn Content Agent",
+  "agent_id": "698efa107729fa642c1b3cf8",
+  "description": "Generates engaging LinkedIn post text based on user topic, creates matching visual content for LinkedIn posts. Handles complete content creation workflow from ideation to publishing.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "post_text": "string",
+    "hashtags": "string",
+    "hook_line": "string",
+    "call_to_action": "string",
+    "post_style": "string",
+    "character_count": "number"
+  },
+  "example_response": {
+    "post_text": "The generated LinkedIn post text",
+    "hashtags": "Suggested hashtags for the post",
+    "hook_line": "The attention-grabbing opening line",
+    "call_to_action": "The closing call-to-action",
+    "post_style": "The style used for the post",
+    "character_count": 0
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/image.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "agents": [
+    {
+      "agent_id": "698efa107729fa642c1b3cf8",
+      "name": "LinkedIn Content Agent",
+      "description": "Generates engaging LinkedIn post text based on user topic, creates matching visual content for LinkedIn posts. Handles complete content creation workflow from ideation to publishing.",
+      "provider_id": "openai",
+      "model": "gpt-4.1",
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "image_output_config": {
+        "model": "gemini/gemini-3-pro-image-preview"
+      },
+      "voice_config": null,
+      "file_output": false,
+      "has_module_outputs": true,
+      "module_outputs_type": "artifact_files",
+      "response_schema": {
+        "post_text": "string",
+        "hashtags": "string",
+        "hook_line": "string",
+        "call_to_action": "string",
+        "post_style": "string",
+        "character_count": "number"
+      }
+    }
+  ],
+  "schedules": [],
+  "knowledge_bases": []
+}
